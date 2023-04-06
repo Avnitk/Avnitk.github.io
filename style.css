@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("imgaes/backgroud.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%, 100%;
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2{
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 10px 0;
+}
+
+header{
+    background-color: #000;
+    height: 70px;
+}
+
+.head{
+    max-width: 1150px;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+header h1{
+    color: #fff;
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+header a:hover{
+    border-bottom: 2px #fff solid;
+}
+
+img{
+    width: 100%;
+}
+
+.home{
+    
+}
+
+.homedesc{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.homedesc h1{
+    font-size: 32px;
+}
+
+.homedesc h2{
+    font-size: 24px;
+}
