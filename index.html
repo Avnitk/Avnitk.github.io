@@ -5,33 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imgaes/kami01.jpg">
     <title>Portfolio</title>
 </head>
 <body>
-    <header>
-        <div class="head">
-            <h1>神</h1>
-            <nav class="navbar">
+    <header class="navbar">
+        <div class="container flex">
+            <h1 class="logo">神</h1>
+            <nav>
                 <ul>
                     <li>
-                        <a href="#home">Home</a>
+                        <a href="#about">Home</a>
                     </li>
                     <li>
-                        <a href="">Services</a>
+                        <a href="#services">Services</a>
                     </li>
                     <li>
-                        <a href="">Contact Me</a>
+                        <a href="#footer">Contact Me</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section class="home" id="home">
-        <div class="homedesc">
+    <section class="about" id="about">
+        <div class="container">
            <h1>Hii, I am Avnit</h1>
            <h2>Back-end Developer</h2>
+           <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+           </p>
         </div>
     </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="optionS">
+                <h1>Services I provide</h1>
+            </div>
+            <div class="option">
+                <h3>Back-end Development</h3>
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="option">
+                <h3>Android App Development</h3>
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="option">
+                <h3>Android App Development</h3>
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="top">
+                <h1>Contact Me</h1>
+            </div>
+            <div class="form-c">
+                <form class="form">
+                    <input type="text" placeholder="Name" name="name">
+                    <input type="text" placeholder="Subject" name="subject">
+                    <input type="email" placeholder="Email" name="email">
+                    <input type="text" placeholder="Message" name="message">
+                    <input type="submit" class="btn">
+                </form>
+            </div>
+        </div>
+        <div class="links">
+            <div class="copy">
+                <p><p>&copy; 2023 Avnit</p></p>
+            </div>
+            <div class="links-c">
+                <a href="#" class="links-o"><img src="imgaes/iconmonstr-github-1-240.png"></a>
+                <a href="#" class="links-o"><img src="imgaes/iconmonstr-twitter-3-240.png"></a>
+                <a href="#" class="links-o"><img src="imgaes/instagram.png"></a>
+                <a href="#" class="links-o"><img src="imgaes/iconmonstr-gmail-1-240.png"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
